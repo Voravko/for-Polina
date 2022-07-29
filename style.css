@@ -1,0 +1,695 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "FontName";
+    
+
+}
+@font-face {
+    font-family: 'FontName'; 
+	src: url(20951.ttf); 
+}
+.header
+{
+    max-width:100vw;
+
+    height: 730px;
+    display: block;
+   background-color: rgba(0, 0, 0, 0.222);
+    background-image: url(img/2.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.black
+{
+    width: 100%;
+    height: 730px;
+    background-color: rgba(0, 0, 0, 0.748);
+}
+.blinchik
+{
+    display: flex;
+    float: right;
+    padding: 0;
+    margin: 0;
+    margin-top: -70px;
+    
+}
+.logo
+{
+    color: azure;
+    display: flex;
+    font-size: 32px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-left: 60px;
+}
+.content-conteiner
+{
+   width: 60%;
+    display: block;
+    margin-top: 10%;
+    color: white;
+    
+    padding-left: 60px;
+
+}
+.main-text
+{
+    font-size: 35px;
+    color: white;
+    padding-top: 20px;
+}
+
+.content-conteiner p{
+    padding-top: 30px;
+}
+.button-buy
+{
+    width: 180px;
+    padding-top: 5px;
+    background-color: white;
+    height: 45px;
+    border-radius: 40px;
+    margin-top: 35px;
+    color:black;
+    font-size: 28px;
+    text-align: center;
+    
+}
+.button-buy:hover
+{
+    box-shadow: 5px 5px 11px -6px rgba(0, 0, 0, 0.689) inset;
+}
+
+.history
+{
+    max-width:100vw;
+
+    height: 800px;
+    padding-top: 200px;
+    display: block;
+    background-image: url(img/2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 999;
+}
+
+
+.galerey
+{
+  max-width:100vw;
+
+  height: 700px;
+  padding-top: 10%;
+  padding-bottom: 200px;
+  display: block;
+  background-image: url(img/2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 999;
+}
+.razmarin
+{
+    display: block;
+    position: relative;
+    top: -900px;
+    padding-left: 75%;
+}
+.razmarin img{
+    display: flex;
+    width: 70%;
+}
+.history #main
+{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top:330px;
+    
+    
+}
+.hard-muka
+{
+    position: relative;
+    right:20px;
+    bottom: 150px;
+    top:-170px;
+}
+.history-panel
+{
+ 
+   
+    display: flex;
+    width: 90%;
+    height: 70%;
+    background-color: azure;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 750px;
+    
+}
+.history-panel img
+{
+    display: flex;
+    width: 40%;
+    
+}
+
+.about
+{
+    max-width:100vw;
+    height: 1000px;
+    text-align: center;
+    background-image: url(img/2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 3%;
+
+    display:grid;
+    place-items:center;
+   
+}
+.conteinr div{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    width: 300px;
+    height: 550px;
+    background-color: aliceblue;
+    margin-left: 10px;
+}
+.conteinr
+{
+    display: block;
+    width: 1000px;
+    height: 550px;
+    margin: auto;
+    padding-top: 50px;
+
+}
+.content-conteiner-history
+{
+   
+    color: black;
+    height: 400px;
+    width: 800px;
+   margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 50px;
+    display: block;
+    
+   
+}
+.content-conteiner-history #main1
+{
+    font-size: 28px;
+   padding-bottom: 20px;
+}
+
+.order-blin
+{
+   
+    max-width: 100%;
+    height: 1900px;
+    display: block;
+    padding-top: 150px;
+    background-image: url(img/2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.conteiner-blin
+{
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding-top: 150px;
+   
+    
+}
+.blin{
+   display: flex;
+   width: 100%;
+    height: 50%;
+   margin-bottom: 30px;
+   padding-bottom: 50px;
+ 
+}
+
+.blin img
+{
+  
+    display: inline-flex;
+    width: 35%;
+}
+.blin p
+{
+    display: inline-block;
+  position: relative;
+  top:10px;
+ 
+    text-align: left;
+    width: 50%;
+    font-size: 28px;
+    padding-left: 40px;
+    
+    color:white
+   
+}
+
+.blin #left
+{
+    display: inline-block;
+  position: relative;
+ top:10px;
+    text-align: right;
+    width: 50%;
+    font-size: 28px;
+   left: 10%;
+    
+    color:rgb(255, 255, 255)
+   
+}
+.blin #left1
+{
+  
+    display: inline-block;
+    width: 35%;
+    position: relative;
+    left: 15%;
+}
+.footer
+{
+    max-width: 100vw;
+
+    height: 700px;
+    display: block;
+    background-image: url(img/2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.big-img-paralax
+{
+   
+    width: 100%;
+    display: flex;
+    background-color: aliceblue;
+    height: 400px;
+    display: block;
+    background-image: url(img/fon.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+
+.container img {
+    width: 50%;
+    height: 90%;
+    object-fit:cover;
+    
+    -webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004);
+    
+    transform-origin:center;
+    transform:perspective(800px) rotateY(25deg);
+    transition:0.5s;
+  }
+  .container {
+     
+    max-width:600px;
+    max-height:350px;
+    
+    
+    
+    display:flex;
+    padding-top: 150px;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    
+  }
+  .container:hover img {
+    opacity:0.3;
+  }
+  .container img:hover {
+    transform:perspective(800px)       rotateY(0deg);
+    opacity:1;
+  }
+
+
+  .dicription-text
+  {
+     color: white;
+     text-align: center;
+     font-size: 25px;
+     padding-top: 150px;
+     width: 100%;
+  }
+
+
+
+  .main-text #blin
+  {
+      padding-top: 100px;
+    text-align: center;
+  }
+
+  .dicription-text1
+  {
+     color: white;
+     text-align: center;
+     font-size: 25px;
+     padding-top: 20px;
+     width: 100%;
+  }
+
+  .information
+  {
+      background-color: black;
+      width: 100%;
+      height: 400px;
+  }
+
+
+
+
+  .wrapper {
+    display: inline-flex;
+    list-style: none;
+  }
+  
+  .wrapper .icon {
+    position: relative;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background: #1877F2;
+    color: #ffffff;
+  }
+  
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background: #1DA1F2;
+    color: #ffffff;
+  }
+  
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background: #E4405F;
+    color: #ffffff;
+  }
+  
+  .wrapper .github:hover,
+  .wrapper .github:hover .tooltip,
+  .wrapper .github:hover .tooltip::before {
+    background: #333333;
+    color: #ffffff;
+  }
+  
+  .wrapper .youtube:hover,
+  .wrapper .youtube:hover .tooltip,
+  .wrapper .youtube:hover .tooltip::before {
+    background: #CD201F;
+    color: #ffffff;
+  }
+
+  
+  .net
+  {
+      display: block;
+      padding-top: 7%;
+      padding-right: 20px;
+      text-align: right;
+  }
+
+  .dicription-text-footer
+  {
+    color: white;
+    text-align: right;
+    font-size: 25px;
+    position: relative;
+    top:10%;
+    width: 70%;
+  }
+  .dicription-text-footer-rigth
+  {
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 25px;
+    position: relative;
+    top:40%;
+    width: 70%;
+  }
+
+
+
+
+  figure{
+    margin: auto;
+    width: 900px;
+    position: relative;
+    bottom: 120px;
+  }
+  
+  .front, .back{
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+  }
+  
+  .front{
+    transform: perspective( 2000px ) rotateY( 0deg );
+    transition: all .3s linear;
+    position: relative;
+    backface-visibility: hidden;
+  }
+  
+  .back{
+    transform: perspective( 2000px ) rotateY( 180deg );
+    transition: all .3s linear;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px rgba(0,0,0,.2);
+    backface-visibility: hidden;
+  }
+  
+  .back__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    background: #fafafa;
+    border-bottom: 1px solid #eaeaea;
+    border-radius: 5px 5px 0 0;
+    padding: 0 40px;
+  }
+  
+  .back__header button{
+    margin: auto 0;
+  }
+  
+  .back p{
+    padding: 0 40px 40px 40px;
+  }
+  
+  figure .image{
+    overflow: hidden;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px rgba(0,0,0,.2);
+  }
+  
+  figure img{
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+  }
+  
+  figcaption{
+    padding: 10px 20px;
+    border-radius: 5px 5px 0 0;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    left: 40%;
+    transition: 0.2s all linear 0s;
+  }
+  
+  figure h4{
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  figure h4 b{
+    align-self: start;
+    color: #444;
+    margin-left: 20px;
+    line-height: 20px;
+  }
+  
+  figure .details{
+    height: 0;
+    overflow: hidden;
+    transition: 0.2s all linear 0s;
+  }
+  
+  figure p{
+    margin: 0;
+    color: #777;
+  }
+  
+  figure button{
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    padding: .5rem 1rem;
+  }
+  
+  figure button i{
+    margin-left: 1rem;
+  }
+  
+  
+  #show-back{
+    display: block;
+    margin-top: 10px;
+    background: #33ad11;
+  }
+  
+  #show-front{
+    margin-top: auto;
+    background: #444;
+  }
+  @media screen and (min-width: 426px) and (max-width: 769px){
+    body{
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 425px){
+    body{
+      font-size: 12px;
+    }
+    figcaption{
+      cursor: pointer;
+      padding: 10px 20px;
+      border-radius: 5px 5px 0 0;
+      background: #fff;
+      position: absolute;
+      bottom: 0;
+      right: 20px;
+      left: 20px;
+    } 
+  }
+
+  
